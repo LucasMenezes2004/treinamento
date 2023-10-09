@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquário</title>
+    <link rel="stylesheet" href="cria11.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="telapequena.css">
+</head>
+<body>
+    <header>
+        <h1>Aquário</h1>
+
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <button onclick="login()">Login</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="tudo" class="devagar">
+            <div id="imagem">
+
+            </div>
+
+            <div id="form-login">
+                <p>Seja Bem-Vindo(a) Novamente!</p>
+                <form action="aquario.html" method="post" autocomplete="on">
+                    <div class="dados">
+                        <label for="email">E-mail <span class="material-icons">mail</span></label> <br>
+                        <input type="email" name="imail" id="email" required autocomplete="email" placeholder="Escreva seu E-mail">
+                    </div>
+                    <br>
+                    <div class="dados">
+                        <label for="senha">Senha <span class="material-icons">lock</span></label> <br>
+                        <input type="password" name="isenha" id="senha" autocomplete="current-password" required placeholder="Escreva sua Senha">
+                    </div>
+
+                    <input type="submit" value="Entrar" id="submit">
+
+                    <a href="#" id="esqueci">Esqueceu a senha ?</a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function login() {
+            if (tudo.style.display == 'none') {
+            tudo.style.display = 'block'
+            
+            } else {
+                tudo.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

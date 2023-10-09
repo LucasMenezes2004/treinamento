@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldTech</title>
+    <link rel="stylesheet" href="cria9.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="itens/imagens/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body onresize="teste()">
+    <header>
+        
+        <h1>WorldTech</h1>
+
+    </header>
+    
+    <div><i id="menu" class="material-icons" onclick="menu()">menu</i></div>
+    <menu id="itens">
+        <ul>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Fonts</a></li>
+        </ul>
+    </menu>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="art">
+            <p>WorldTech, is a company dedicated to the area of ​​technology, with the objective of improving everything that is outdated, making appliances and devices better and faster, from</p> <p id="p2">software to hardware, WolrdTech manages to show itself to be very capable in this area. WorldTech has hubs spread around the world, becoming an international and large company in the technology area, becoming representative in the modern era.</p>
+        </article>
+
+        <img src="itens/imagens/logo/world.png" alt="logo">
+    </main>
+
+    <script>
+        function menu() {
+            if ( itens.style.display == 'none') {
+            itens.style.display = 'block'
+            nav.style.display = 'none'
+            } else {
+                itens.style.display = 'none'
+                nav.style.display = 'block'
+        }
+    }
+
+        function teste() {
+            if (window.innerWidth <= 700) {
+                art.style.height = '300px'
+                art.style.overflow = 'auto'
+            } else {
+                art.style.height = '240px'
+            } 
+        }
+    </script>
+</body>
+</html>

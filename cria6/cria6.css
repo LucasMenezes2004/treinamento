@@ -1,0 +1,159 @@
+@font-face {
+    font-family: titulo;
+    src: url(itens/fontes/fonttitu/moto-verse.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: padrao;
+    src: url(itens/fontes/font-pad/Poppins-Regular.ttf) format(truetype);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #03131E;
+}
+
+header {
+    background-image: linear-gradient(#2B516B, #162B38);
+    color: white;
+    display: flex;
+    min-height: 150px;
+}
+
+header > h1 {
+    margin: auto;
+    margin-top: 70px;
+    font-family: titulo;
+    font-size: 34px;
+}
+
+#div-img {
+    
+    width: 100px;
+    height: 100px;
+    margin-top: 29px;
+}
+
+#img-logo {
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+
+nav {
+    background-color: #162B38;
+    min-height: 35px;
+    text-align: right;
+}
+
+nav > a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: padrao;
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    border: 2px solid white;
+    color: #03131E;
+    background-color: white;
+    font-weight: bold;
+}
+
+main {
+    width: 96vw;
+}
+
+#div-form {
+    background-image: linear-gradient(#2B516B, #0b456bb0, #2B516B);
+    margin: auto;
+    max-width: 300px;
+    font-family: padrao;
+    min-height: 300px;
+    margin-top: 30px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#iemail {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: 70px;
+    padding: 5px;
+    color: white;
+}
+
+#isenha {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: 70px;
+    padding: 5px;
+    color: white;
+}
+
+#botao {
+    background-color: #03131E;
+    color: white;
+    padding: 10px;
+    margin-top: 45px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#botao:hover {
+    background-color: #0B456B;
+    border: 1px solid white;
+    transform: translate(0, -5px);
+}
+
+#img-senha {
+    width: 18px;
+}
+
+footer {
+    background-color: #162B38;
+    margin: 0px;
+    min-height: 84px;
+    padding: 5px;
+    margin-top: 90px;
+    
+}
+
+.links {
+    text-align: center;
+}
+
+.links > a {
+    color: white;
+    font-family: padrao;
+    text-decoration: none;
+    transition: 0.2s;
+    line-height: 30px;
+}
+
+.links > a:hover {
+    color: silver;
+    text-decoration: underline;
+}
+

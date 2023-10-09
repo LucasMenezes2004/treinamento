@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right,rgba(192, 192, 192, 0.705), rgba(0, 0, 0, 0.185), rgba(192, 192, 192, 0.705));
+}
+
+header {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.795);
+    min-height: 100px;
+    align-items: center;
+    padding: 5px;
+}
+
+header > img {
+    width: 180px;
+    height: 85px;
+}
+
+
+header > h1 {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 13, 82);
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+    font-variant: small-caps;
+}
+
+header > h1:hover {
+    border-bottom: 2.5px solid blue;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.795);
+    min-height: 20px;
+    text-align: right;
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(13, 13, 82);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+nav > a:hover {
+    border-bottom: 3px solid #21D3FD;
+}
+
+
+main {
+    max-width: 900px;
+    min-width: 725px;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.795);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+#div-img {
+    margin: auto;
+    width: 300px;
+}
+
+div > img {
+    width: 300px;
+}
+
+
+#linha {
+    position: sticky;
+    left: 52%;
+    top: 35%;
+    width: 3px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+
+#div-conteudo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(192, 192, 192, 0.596);
+    padding: 10px;
+    height: 300px;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+#div-conteudo > p {
+    padding-top: 40px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.795);
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

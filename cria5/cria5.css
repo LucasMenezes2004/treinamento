@@ -1,0 +1,133 @@
+@font-face {
+    font-family: pad;
+    src: url(itens/fontes/fontepad/Poppins-Light.ttf) format(truetype);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+hmtl,body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.cabeca {
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    background-color: white;
+    padding: 20px;
+}
+
+.links {
+    background-color: white;
+    min-width: 1205px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+div > a {
+    margin: 50px;
+    color: black;
+    text-decoration: none;
+    font-family: pad;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+div > a:hover {
+    background-color: rgba(192, 192, 192, 0.541);
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    font-size: 17px;
+}
+
+.pesquisa {
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 10px;
+    background-color: rgba(192, 192, 192, 0.205);
+    margin-left: 70px;
+}
+
+
+.principal {
+    background-color: white;
+    display: flex;
+    padding-top: 100px;
+}
+
+.conteudo {
+    background-color: white;
+    max-width: 600px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: pad;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.titulo {
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
+}
+
+
+.qad1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 20%;
+    left: 65%;
+    background-color: #F2441D;
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.300);
+}
+
+.qad2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 20%;
+    left: 76.3%;
+    width: 150px;
+    height: 150px;
+    background-color: #82BF26;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.qad3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-color: #05C7F2;
+    top: 45%;
+    left: 65%;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.300);
+}
+
+.qad4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    top: 45%;
+    left: 76.3%;
+    background-color: #F2A20C;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
+}

@@ -1,0 +1,61 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #082366, #4570E6);
+    }
+    
+    section#login {
+        width: 700px;
+        height: 320px;
+    }
+
+    div#imagem {
+        background-image: url(itens/imagens/fundo-login/tec.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        float: right;
+        width: 30%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    div#form {
+        float: left;
+        width: 70%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #082366, #4570E6);
+    }
+    
+    section#login {
+        width:  900px;
+        height: 330px;
+    }
+
+    div#imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+        border-radius: 0px 20px 20px 0px;
+
+        background-image: url(itens/imagens/fundo-login/fundo3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+
+    }
+
+    div#form {
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+} 

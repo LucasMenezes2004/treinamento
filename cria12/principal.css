@@ -1,0 +1,110 @@
+@font-face {
+    font-family: titulo;
+    src: url(itens/fontes/font-titulo/Adam-Light.ttf) format(truetype);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    position: relative;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.493), rgba(255, 166, 0, 0.493));
+}
+
+header > h1 {
+    margin-left: 20px;
+    font-family: titulo;
+    font-size: 40px;
+    color: white;
+}
+
+#logged {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 3%;
+    top: 17%;
+
+    background-image: url(itens/imagens/usuario/user3.png);
+}
+
+main {
+    
+
+}
+
+main > div.d1 {
+    background-image: url(itens/imagens/outono/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 370px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.d1 > p {
+    margin: 0px;
+    padding: 10px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 200px;
+    width: 330px;
+    color: white;
+    padding-top: 80px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: Ysabeau Infant;
+    font-size: 20px;
+}
+
+.d2 {
+    background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.493), rgba(255, 0, 0, 0.493));
+    height: 250px;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.d2 > p {
+    margin: 0px;
+    display: block;
+    height: 200px;
+    width: 330px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Ysabeau Infant;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.d3 {
+    height: 350px;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url(itens/imagens/outono/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.d3 > p {
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Ysabeau Infant;
+    font-size: 20px;
+    display: block;
+    height: 150px;
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding-top: 80px;
+    color: white;
+}

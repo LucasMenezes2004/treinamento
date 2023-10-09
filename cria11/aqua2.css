@@ -1,0 +1,135 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(itens/imagens2/fundo-mar/fundo-mar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    display: flex;
+    position: relative;
+}
+
+.imagem1 {
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    background-image: url(itens/imagens2/peixes/peixes1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imagem2 {
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    background-image: url(itens/imagens2/peixes/peixes2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imagem3 {
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    background-image: url(itens/imagens2/peixes/peixes3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imagem4 {
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    background-image: url(itens/imagens2/peixes/peixes4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.oferta1 {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+    transition: width 0.5s;
+    transition-timing-function: ease;
+}
+
+.oferta2 {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+
+    transition: width 0.5s;
+    transition-timing-function: ease;
+}
+
+.oferta3 {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+
+    transition: width 0.5s;
+    transition-timing-function: ease;
+}
+
+.oferta4 {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+
+    transition: width 0.5s;
+    transition-timing-function: ease;
+}
+
+.oferta-ajuste {
+    display: none;
+}
+
+
+.paragrafo {
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.ajuste {
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+del {
+    color: red;
+}
+
+span.valor {
+    font-size: 20px;
+    color: blue;
+}
+
+span.sozinoujunto {
+    font-size: 20px;
+}
+

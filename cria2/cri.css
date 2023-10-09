@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: sp;
+    src: url(itens/fontes/fontsp/Cocogoose\ Pro-trial.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: h;
+    src: url(itens/fontes/fonth/Rounded_Elegance.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: pad;
+    src: url(itens/fontes/fontpad/Quicksand_Book.otf) format(opentype);
+}
+
+
+body {
+    margin: 0px;
+    background-color: #F2C7BD;
+}
+
+
+header {
+    background-image: linear-gradient(#F26D78, #D9043D);
+}
+
+header > h1 {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+    font-family: sp;
+    font-size: 50px;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+nav {
+    background-color: #D9043D;
+    height: 30px;
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: pad;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #F26D78;
+    color: black;
+}
+
+.principal {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    font-family: pad;
+    font-weight: bold;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.mainimg {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    height: 200px;
+}
+
+.img1 {
+    height: 200px;
+}
+
+aside > p {
+    background-color: #D9043D;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside {
+    background-color: #f26d7883;
+    border-radius: 10px;
+    height: 200px;
+}
+
+ul {
+    font-family: pad;
+    font-weight: bold;
+}
+
+
+
+.fontt {
+    font-family: h;
+    font-weight: bolder;
+}
+
+
+footer {
+    background-color: #D9043D;
+    margin: 0px;
+}
+
+footer > p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.mainimg2 {
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+}
+
+.img2 {
+    height: 450px;
+    width: 450px;
+}
+
+span > a {
+    text-decoration: none;
+    color: red;
+}
+
+span > a:hover {
+    text-decoration: underline;
+    color: #D9043D;
+}

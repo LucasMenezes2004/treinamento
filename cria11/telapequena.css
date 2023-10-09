@@ -1,0 +1,53 @@
+
+
+
+@media screen and (max-width: 768px) {
+    div > a {
+        display: none;
+    }
+
+    div#form-login {
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    section#tudo {
+        width: 700px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    div#form-login {
+        float: left;
+        width: 50%;
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    div#form-login > p {
+        padding-bottom: 30px;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    div.dados {
+        margin: 20px 0px;
+    }
+
+    a#esqueci {
+        margin-top: 25px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    input#submit {
+        padding: 10px;
+    }
+}

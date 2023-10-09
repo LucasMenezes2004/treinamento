@@ -1,0 +1,129 @@
+@font-face {
+    font-family: titulo;
+    src: url(itens/fontes/fonte1/Gameplay.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: nav;
+    src: url(itens/fontes/fonte2/Roboto-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: p;
+    src: url(itens/fontes/fonte3/Quicksand_Book.otf) format(opentype);
+}
+
+@font-face {
+    font-family: mine;
+    src: url(itens/fontes/fontmine/Minercraftory.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: jogo;
+    src: url(itens/fontes/fontparaj/nulshock\ bd.otf) format(opentype);
+}
+
+
+body {
+    background-color: #77fa4b86;
+    margin: 0px;
+}
+
+header {
+    background-image:linear-gradient(#56F591,#43DE50);
+    margin: 0px;
+    height: 150px;
+}
+
+.h1 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: titulo;
+    color: black;
+    text-shadow: 0px 2px white;
+}
+
+nav {
+    background-color: #43DE50;
+    height: 35px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: nav;
+    transition: 0.5s;
+    text-shadow: 1px 2px #56F591;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    color: black;
+    background-color: #76FA4B;
+    text-shadow: 1px 2px white;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+}
+
+.ajuste {
+    margin: 0px;
+}
+
+.articlepad {
+    padding: 10px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 18px;
+    font-family: p;
+    text-indent: 15px;
+}
+
+.pperso {
+    color: black;
+}
+
+.font {
+    font-family: p;
+}
+
+#mine {
+    font-family: mine;
+    font-size: 20px;
+}
+
+
+.mod {
+    font-family: jogo;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: #43DE50;
+    margin: 0px;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.192);
+}
+
+footer > p {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    text-shadow: 0px 1px #56F591;
+}
